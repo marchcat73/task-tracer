@@ -1,0 +1,42 @@
+{
+  "name": "task-tracer",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchcat73/task-tracer.git"
+  },
+  "keywords": [
+    "node js",
+    "nextjs",
+    "react"
+  ],
+  "author": "Vitaliy Vanyushin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marchcat73/task-tracer/issues"
+  },
+  "homepage": "https://github.com/marchcat73/task-tracer#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "next": "^8.1.0",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reactstrap": "^8.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
